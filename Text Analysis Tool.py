@@ -15,3 +15,4 @@ print("Word count:", word_count)
 print("Frequencies:", freq)
 print("Top 3:", top3)
 print("Vowels:", vowels)
+

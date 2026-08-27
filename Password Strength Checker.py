@@ -1,14 +1,15 @@
 import re
 
 def is_strong_password(password):
-    if (len(password) >= 8 and
-        re.search(r'[A-Z]', password) and
-        re.search(r'[a-z]', password) and
-        re.search(r'\d', password) and
-        re.search(r'[!@#$%^&*()\-_]', password)):
-        return True
-    return False
+    return (len(password) >= 8 and
+            re.search(r'[A-Z]', password) and
+            re.search(r'[a-z]', password) and
+            re.search(r'\d', password) and
+            re.search(r'[!@#$%^&*()\-_]', password))
 
-print(is_strong_password("StrongPass1!"))  
-print(is_strong_password("weak"))     
-    
+password = input("Enter your password: ")
+
+if is_strong_password(password):
+    print("Password is strong ✅")
+else:
+    print("Password is weak ❌")
