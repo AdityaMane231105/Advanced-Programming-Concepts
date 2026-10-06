@@ -1,0 +1,8 @@
+Name: Aditya
+Roll No: 102
+Branch: CSE
+Semester: 5
+
+CSE student needs to be updated with the current technologies and market scenario...
+H& "c:\Users\Aditya\OneDrive\Documents\Advanced Programming Concepts\.venv\Scripts\python.exe" "c:/Users/Aditya/OneDrive/Documents/Advanced Programming Concepts/Student Info/append_student_info.py"
+Hey! What's going on ? 
