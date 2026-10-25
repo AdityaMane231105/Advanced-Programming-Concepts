@@ -1,30 +1,51 @@
 # Advanced Programming Concepts
 
-A collection of Python coursework, experiments, and projects developed while learning programming concepts and building practical applications.
+A collection of Python coursework, experiments, and projects organized by topic. This repository documents my learning and includes practical programs and applications.
 
-## Main Python Mini Project
+## Contents
+
+- [Featured Mini Project](#featured-mini-project)
+- [Project Features](#project-features)
+- [Folder Structure](#folder-structure)
+- [Run the Project](#run-the-project)
+- [Documentation](#documentation)
+
+## Featured Mini Project
 
 ### [SkyWise OpenMeteo](13%20Python%20Mini%20Project/skywise-openmeteo/README.md)
 
-SkyWise is my main Python mini project in this repository: a responsive weather dashboard built with **Python and Flask**. It retrieves current conditions and five-day forecasts from **Open-Meteo**, and includes an AI weather-advice panel.
+**SkyWise is my main Python mini project.** It is a responsive weather dashboard built with Python and Flask. It uses Open-Meteo for current weather and forecast data, and provides an optional AI weather-advice feature.
 
-**Highlights**
-- Search for a city and view current weather conditions
-- Check a five-day forecast
-- Ask weather-related questions through the configurable AI panel
+| Details | Information |
+| --- | --- |
+| Project type | Python mini project |
+| Main technologies | Python, Flask, HTML, CSS, JavaScript |
+| Weather data | Open-Meteo |
+| AI advice | Ollama or another configured provider |
+| Project folder | `13 Python Mini Project/skywise-openmeteo` |
+
+## Project Features
+
+- Search for a city and view its current weather
+- View a five-day forecast
+- Ask weather-related questions using the configured AI provider
 - Run locally or deploy using the included Render configuration
 
-**Technologies:** Python, Flask, Open-Meteo, HTML, CSS, JavaScript, Ollama
+## Folder Structure
 
-For requirements, setup instructions, and deployment steps, see the [SkyWise project README](13%20Python%20Mini%20Project/skywise-openmeteo/README.md).
+```text
+13 Python Mini Project/
+└── skywise-openmeteo/
+    ├── app.py
+    ├── requirements.txt
+    ├── templates/
+    ├── static/
+    └── README.md
+```
 
-## Repository Contents
+## Run the Project
 
-The folders in this repository contain Python experiments, coursework programs, and mini projects organized by topic. SkyWise is the featured main mini project.
-
-## Run SkyWise
-
-Open the project folder `13 Python Mini Project/skywise-openmeteo` in VS Code, then follow the detailed setup in its README. The basic commands on Windows are:
+Open `13 Python Mini Project/skywise-openmeteo` in VS Code. In the terminal, run:
 
 ```powershell
 python -m venv .venv
@@ -32,4 +53,8 @@ python -m venv .venv
 .venv\Scripts\python.exe app.py
 ```
 
-The app starts at http://127.0.0.1:5001. Weather search and forecasts do not require an API key. The AI advice setup and deployment options are documented in the project README.
+Then open [http://127.0.0.1:5001](http://127.0.0.1:5001) in your browser. Weather search and forecasts do not require an API key.
+
+## Documentation
+
+See the [SkyWise project README](13%20Python%20Mini%20Project/skywise-openmeteo/README.md) for complete requirements, configuration, AI setup, and deployment instructions.
