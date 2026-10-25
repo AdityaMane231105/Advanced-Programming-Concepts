@@ -1,7 +1,16 @@
 # 02 Installation and Configuration of Python with IDEs
 
-No existing setup or IDE installation instructions were identified in the source repository.
+## Syllabus focus
 
-Files grouped here: **0**.
+Prepare a working Python environment and use an IDE or editor to create, run, and inspect a Python program.
 
-Original file names and relative paths within this experiment folder are preserved. Code was not rewritten.
+## Learning outcomes
+
+- Install Python and identify the interpreter used by the system.
+- Select or configure a Python interpreter in an IDE such as IDLE or VS Code.
+- Create a project folder, save a `.py` file, run it, and read errors in the terminal or console.
+- Distinguish the Python interpreter from the editor used to write code.
+
+## Repository coverage
+
+No installation exercise or IDE setup guide was present in the source programs for this experiment. This README records the syllabus topic; there are currently no experiment files in this folder.
