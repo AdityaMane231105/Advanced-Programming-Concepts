@@ -13,4 +13,6 @@ Build a desktop interface with Tkinter widgets, layout managers, and event callb
 
 ## Repository coverage
 
-No Tkinter program was present in the source repository for this experiment. This README records the syllabus scope; the folder currently contains no matching exercise files.
+The `Tkinter_Application` folder contains a Student Registration desktop app with a form, dropdown, event callback, email and phone validation, and confirmation dialogs. Registration data is displayed but not saved to a database.
+
+Run the program with `python app.py` from that folder.

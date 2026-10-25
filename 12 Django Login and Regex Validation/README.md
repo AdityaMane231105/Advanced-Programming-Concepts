@@ -13,4 +13,6 @@ Create a Django login flow and validate user input with regular expressions wher
 
 ## Repository coverage
 
-No Django login application was present in the source repository. Standalone email, password, IP, and phone validation examples are in Experiment 04; they are not a Django implementation.
+The `Django_Login_Application` folder contains a Django project with registration, login, logout, regex validation for usernames and email addresses, and a protected dashboard. Django’s built-in authentication handles password hashing and sessions.
+
+See the project README for installation and run steps. Its settings are intended for local development.
