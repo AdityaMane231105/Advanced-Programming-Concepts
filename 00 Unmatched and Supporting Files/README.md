@@ -1,12 +1,12 @@
 # 00 Unmatched and Supporting Files
 
-Items that do not cleanly map to a syllabus experiment, plus repository support files. Review the unmatched list below.
+Items that do not cleanly map to a syllabus experiment, plus miscellaneous data and files with unclear alignment.
 
-Files grouped here: **16**.
+Files grouped here: **13**.
 
-Original file names and relative paths within this experiment folder are preserved. Code was not rewritten.
+Original file names and relative paths within this folder are preserved. Code was not rewritten. Repository-level editor and agent configuration remains in the repository root.
 
 ## Review notes
 
-- Repository editor configuration, agent guidance, miscellaneous text/data and files with unclear syllabus alignment are preserved here.
-- Programs that do not strongly match a named topic may need a human review; this grouping is organizational, not a claim about original course intent.
+- Some programs may need a human review because their course alignment is unclear.
+- No programs were removed; the original files remain in their syllabus folders or here.
