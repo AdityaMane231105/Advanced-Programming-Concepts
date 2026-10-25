@@ -5,6 +5,7 @@ A collection of Python coursework, practice programs, experiments, and applicati
 ## Contents
 
 - [Programming exercises](#programming-exercises)
+- [Strings and text processing](#strings-and-text-processing)
 - [File handling exercises](#file-handling-exercises)
 - [Student and employee exercises](#student-and-employee-exercises)
 - [Application and mini project folders](#application-and-mini-project-folders)
@@ -24,6 +25,17 @@ Folders for core programming concepts and problem solving:
 
 The repository also includes individual exercises for data types, arithmetic, factorials, Fibonacci numbers, prime checks, even and odd numbers, powers, patterns, and points in a 2D plane.
 
+## Strings and Text Processing
+
+Folders for working with characters, words, and text:
+
+- [Longest Word](Longest%20Word/)
+- [Remove Comments](Remove%20Comments/)
+- [Search Word](Search%20Word/)
+- [Word Frequency](Word%20Frequency/)
+
+Other text exercises include anagram and palindrome checks, character counts and frequencies, duplicate-character removal, Caesar cipher, stopword removal, and replacing characters or words.
+
 ## File Handling Exercises
 
 Folders for reading, comparing, searching, merging, and editing files:
@@ -40,7 +52,7 @@ Folders for reading, comparing, searching, merging, and editing files:
 - [Replace Word](Replace%20Word/)
 - [Reverse Lines](Reverse%20Lines/)
 
-Related standalone experiments include searching for words, counting word occurrences, and extracting file extensions and dates.
+Related standalone experiments include counting word occurrences and extracting file extensions and dates.
 
 ## Student and Employee Exercises
 
@@ -62,7 +74,6 @@ The repository includes the following project folders:
 
 - [Banking Project1](Banking%20Project1/)
 - [banking_project](banking_project/)
-- [Calculator](Calculator/)
 - [college_project](college_project/)
 - [college_project1](college_project1/)
 - [ecommerce](ecommerce/)
@@ -92,9 +103,9 @@ Individual Python files in the repository root provide practice in these areas:
 - **Validation:** email and password checks
 - **Patterns and sequences:** character sequences, number sequences, and pattern printing
 
-Browse the [repository root](.) to see all standalone scripts.
+Browse the [repository root](.) to see the standalone scripts.
 
 ## Repository Configuration
 
-- [\.github/agents](.github/agents/) contains GitHub agent configuration.
-- [\.vscode](.vscode/) contains Visual Studio Code workspace settings.
+- [.github/agents](.github/agents/) contains GitHub agent configuration.
+- [.vscode](.vscode/) contains Visual Studio Code workspace settings.
