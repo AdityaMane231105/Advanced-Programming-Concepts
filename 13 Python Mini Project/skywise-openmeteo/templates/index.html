@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10172a">
+  <title>SkyWise — AI Weather</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <main class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="SkyWise home">
+        <span class="brand-mark">✳</span><span>skywise<span class="brand-dot">.</span></span>
+      </a>
+      <div class="topbar-right">
+        <span class="live-pill"><span class="live-dot"></span> LIVE WEATHER</span>
+        <span class="local-label">AI-powered forecast</span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span> YOUR PERSONAL WEATHER INTELLIGENCE</div>
+      <h1>Every day, <span>in perspective.</span></h1>
+      <p class="hero-copy">Real-time conditions, a five-day outlook, and a little intelligence to help you plan what comes next.</p>
+      <form id="search-form" class="searchbar">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <label class="sr-only" for="city-input">Search city</label>
+        <input id="city-input" name="city" placeholder="Search city — e.g. Pune, Mumbai, London" autocomplete="off" required maxlength="100">
+        <button id="search-button" type="submit"><span>Explore weather</span><span aria-hidden="true">↗</span></button>
+      </form>
+      <div class="quick-cities">
+        <span>TRY</span>
+        <button type="button" class="city-chip" data-city="Mumbai">Mumbai</button>
+        <button type="button" class="city-chip" data-city="Pune">Pune</button>
+        <button type="button" class="city-chip" data-city="London">London</button>
+        <button type="button" class="city-chip" data-city="Tokyo">Tokyo</button>
+      </div>
+      <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+    </section>
+
+    <section id="weather-section" class="dashboard hidden" aria-live="polite">
+      <div class="section-heading">
+        <div><p class="section-kicker">CURRENT CONDITIONS</p><h2>Your weather snapshot</h2></div>
+        <p id="updated-at" class="updated-at"></p>
+      </div>
+
+      <div class="main-grid">
+        <article class="current-card glass-card">
+          <div class="current-top">
+            <div><p class="muted-label">RIGHT NOW IN</p><h3 id="location-name">—</h3><p id="condition-text" class="condition-text">—</p></div>
+            <img id="current-icon" class="weather-icon" alt="" src="">
+          </div>
+          <div class="temperature-row"><span id="temperature">—</span><span class="degree">°C</span></div>
+          <p id="feels-like" class="feels-like">Feels like —°</p>
+          <div class="current-divider"></div>
+          <div class="stats-grid">
+            <div class="stat"><span class="stat-icon">◉</span><div><span class="stat-label">Humidity</span><strong id="humidity">—%</strong></div></div>
+            <div class="stat"><span class="stat-icon">↗</span><div><span class="stat-label">Wind speed</span><strong id="wind">— m/s</strong></div></div>
+            <div class="stat"><span class="stat-icon">◌</span><div><span class="stat-label">Pressure</span><strong id="pressure">— hPa</strong></div></div>
+            <div class="stat"><span class="stat-icon">◎</span><div><span class="stat-label">Visibility</span><strong id="visibility">— km</strong></div></div>
+          </div>
+        </article>
+
+        <article class="insight-card glass-card">
+          <div class="card-heading"><div class="ai-symbol">✧</div><div><p class="section-kicker">YOUR WEATHER COPILOT</p><h3>SkyWise AI</h3></div><span class="ai-tag">AI INSIGHTS</span></div>
+          <p class="insight-intro">Get a clearer read on the weather. Ask for practical suggestions tailored to the current conditions.</p>
+          <div class="prompt-chips">
+            <button type="button" data-question="What should I wear in this weather?">What should I wear?</button>
+            <button type="button" data-question="Is this weather suitable for outdoor activities?">Outdoor plans?</button>
+            <button type="button" data-question="Summarise the conditions and give practical advice for today.">Give me a quick summary</button>
+          </div>
+          <form id="ai-form" class="ai-form">
+            <label class="sr-only" for="ai-question">Ask SkyWise AI</label>
+            <input id="ai-question" maxlength="500" placeholder="Ask anything about this weather…">
+            <button id="ai-submit" type="submit" aria-label="Ask AI">↑</button>
+          </form>
+          <div id="ai-answer" class="ai-answer hidden" aria-live="polite"></div>
+          <p class="disclaimer">AI advice is informational. Check official local alerts for severe weather.</p>
+        </article>
+      </div>
+
+      <section class="forecast-section">
+        <div class="section-heading forecast-heading"><div><p class="section-kicker">PLAN AHEAD</p><h2>Next five days</h2></div><span class="forecast-note">Daily outlook · local city time</span></div>
+        <div id="forecast-grid" class="forecast-grid"></div>
+      </section>
+      <footer class="dashboard-footer"><span>Weather data by Open-Meteo</span><span>AI weather insights</span></footer>
+    </section>
+
+    <footer class="site-footer"><span>SKYWISE © <span id="year"></span></span><span>Made for curious minds <span class="footer-star">✳</span></span></footer>
+  </main>
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</body>
+</html>
