@@ -1,6 +1,11 @@
+# Advanced Programming Concepts
+“A curated collection of Python projects and scripts showcasing problem‑solving, clean coding practices, and applied concepts in data structures, algorithms, and automation. This repository reflects my journey of continuous learning and demonstrates practical applications of Python in real‑world scenarios".
+
+---
+
 # Advanced Programming Concepts — Organized Programs
 
-This archive groups the repository’s existing Python programs against the official 13-experiment syllabus. Existing code and filenames are preserved; only folders and these README files were added.
+This guide maps the repository’s existing Python programs to the official 13-experiment syllabus. The original root README text is retained above.
 
 ## Experiments
 01. [Python Basics](<01 Python Basics>/README.md) — 42 source files
@@ -25,4 +30,4 @@ The `00 Unmatched and Supporting Files` folder contains 16 source files that do 
 
 Experiments 02, 09, 10 and 11 have no matching source programs in this repository. Experiment 12 has no Django application; standalone validation scripts are grouped with strings and validation under Experiment 04.
 
-Source: public repository `AdityaMane231105/Advanced-Programming-Concepts` (main branch). This archive was prepared locally; no GitHub changes were made.
+Source: public repository `AdityaMane231105/Advanced-Programming-Concepts` (main branch). The proposed changes are in a pull request; `main` was not updated directly.
