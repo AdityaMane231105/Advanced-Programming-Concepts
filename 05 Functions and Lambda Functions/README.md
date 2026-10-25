@@ -13,6 +13,6 @@ Break programs into reusable functions and understand arguments, return values, 
 
 ## Programs in this folder
 
-This folder contains 20 Python files, including function exercises for factorials, Fibonacci numbers, text cleanup, searching, and utility modules. Examples include `Factorial.py`, `Fibonacci.py`, and the `Number Utils`, `String Utils`, and `Recursive Utils` folders.
+This chapter contains existing examples and a new `Functions_Experiment` folder with 52 question-wise programs. Questions 1-32 cover functions, recursion, and function arguments. Questions 33-52 cover lambda expressions with `map()`, `filter()`, and sorting.
 
-Review each program’s imports before running it; some examples call a helper module in the same subfolder.
+The experiment folder README lists the sample assumptions used for bill calculations and grade thresholds.

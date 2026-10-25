@@ -1,0 +1,26 @@
+def add(a, b):
+    return a + b
+
+
+def subtract(a, b):
+    return a - b
+
+
+def multiply(a, b):
+    return a * b
+
+
+def divide(a, b):
+    if b == 0:
+        raise ZeroDivisionError("cannot divide by zero")
+    return a / b
+
+
+def calculate(operation, a, b):
+    return operation(a, b)
+
+
+print(calculate(add, 12, 4))
+print(calculate(subtract, 12, 4))
+print(calculate(multiply, 12, 4))
+print(calculate(divide, 12, 4))
