@@ -1,7 +1,18 @@
 # 07 Classes, Objects, Constructors and Destructors
 
-Programs using classes, objects and encapsulated records.
+## Syllabus focus
 
-Files grouped here: **8**.
+Model data and behavior with classes and objects, including initialization and object cleanup methods.
 
-Original file names and relative paths within this experiment folder are preserved. Code was not rewritten.
+## Learning outcomes
+
+- Define a class with attributes and instance methods.
+- Create objects and access their state through methods.
+- Initialize object state with `__init__`.
+- Recognize `__del__` as a destructor method and understand that cleanup timing is managed by Python.
+
+## Programs in this folder
+
+Eight Python files demonstrate class-based records and utilities. Examples include `bank_account.py`, `person_employee.py`, `Employee Info`, `Student`, and class examples under `Find & Replace in File`.
+
+Use these files to trace how each object is constructed and how its methods change or report its state.
