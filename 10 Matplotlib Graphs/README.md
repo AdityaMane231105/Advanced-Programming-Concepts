@@ -13,4 +13,4 @@ Create and label charts with Matplotlib to communicate patterns in data.
 
 ## Repository coverage
 
-No Matplotlib graph program was present in the source repository for this experiment. This README records the syllabus scope; the folder currently contains no matching exercise files.
+The `Matplotlib_Exercises` folder contains five runnable examples: a line plot, a bar chart, a scatter plot, side-by-side comparison charts, and a chart saved as a PNG image. Install Matplotlib with the requirements file in that folder.

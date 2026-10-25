@@ -13,4 +13,4 @@ Prepare a working Python environment and use an IDE or editor to create, run, an
 
 ## Repository coverage
 
-No installation exercise or IDE setup guide was present in the source programs for this experiment. This README records the syllabus topic; there are currently no experiment files in this folder.
+The `Python_Setup_Exercises` folder includes an installation and VS Code setup guide, a script that inspects the active Python environment, an input and output exercise, and a simple calculator exercise.
