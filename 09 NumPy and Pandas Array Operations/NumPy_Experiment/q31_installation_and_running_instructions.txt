@@ -1,0 +1,9 @@
+Install the required packages in the VS Code terminal with:
+
+python -m pip install numpy pandas
+
+To run any Python file from this folder, use:
+
+python q26_create_and_print_1d_2d_3d_arrays.py
+
+The pandas examples read student_marks.csv from the same folder. Run those files while the terminal's current folder is NumPy_Experiment.

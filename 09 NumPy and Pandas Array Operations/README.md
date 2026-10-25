@@ -6,11 +6,19 @@ Use NumPy arrays and Pandas data structures for compact, vectorized numerical an
 
 ## Learning outcomes
 
-- Create arrays and compare array operations with Python loops.
-- Inspect shape, dimensions, indexing, slicing, and element-wise arithmetic.
+- Create arrays and inspect shape, dimensions, indexing, and slicing.
+- Perform arithmetic, matrix, statistical, and Boolean-indexing operations.
 - Build and select from Pandas Series and DataFrames.
-- Summarize tabular data and handle basic missing values.
+- Read tabular data from CSV files.
 
-## Repository coverage
+## Programs
 
-No NumPy or Pandas program was present in the source repository for this experiment. This README records the syllabus scope; the folder currently contains no matching exercise files.
+The `NumPy_Experiment` folder contains the question-wise Python programs and the sample CSV file for NumPy and Pandas exercises. Python program files are kept free of code comments.
+
+Install the packages with:
+
+```bash
+python -m pip install numpy pandas
+```
+
+Run each program from the `NumPy_Experiment` folder. The Pandas programs read `student_marks.csv` from that folder.
