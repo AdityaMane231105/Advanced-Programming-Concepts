@@ -10,6 +10,11 @@ SkyWise is a responsive Flask weather dashboard. It uses Open-Meteo for current 
 - Ollama-powered weather Q&A, with local Ollama for development and Ollama Cloud for deployment
 - Responsive dark dashboard
 
+## Screenshot
+
+This capture shows a live Pune weather snapshot and five-day forecast. Weather values update when you run the app.
+
+![SkyWise weather dashboard for Pune](screenshots/weather-dashboard-pune.jpg)
 ## Requirements
 - Python 3.10+
 - Internet connection

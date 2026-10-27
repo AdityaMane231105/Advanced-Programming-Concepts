@@ -31,11 +31,12 @@ A structured collection of Python coursework, practice exercises, experiments, a
 
 Browse to a course section and read its README for the exercise scope and instructions. Run standalone scripts individually with Python 3. Applications may have their own dependencies and setup steps; follow the README in the specific project folder. There is no single dependency file for the entire repository.
 
-## Optional application screenshots
+## Application screenshots
 
-Screenshots are optional for the exercises. To document the user interfaces, place captures in the relevant application folder and link them from that application's README:
+Screenshots are included for the interactive applications and embedded in their project READMEs:
 
-- Tkinter: `11 Tkinter GUI/Tkinter_Application/screenshots/`
-- Django: `12 Django Login and Regex Validation/Django_Login_Application/screenshots/`
-- SkyWise: `13 Python Mini Project/skywise-openmeteo/screenshots/`
+- [Tkinter Student Registration](11%20Tkinter%20GUI/Tkinter_Application/README.md)
+- [Django Login and Regex Validation](12%20Django%20Login%20and%20Regex%20Validation/Django_Login_Application/README.md)
+- [SkyWise Weather Dashboard](13%20Python%20Mini%20Project/skywise-openmeteo/README.md)
 
+Standalone command-line exercises do not need interface screenshots.
