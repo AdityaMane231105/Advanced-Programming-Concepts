@@ -1,111 +1,41 @@
 # Advanced Programming Concepts
 
-A collection of Python coursework, practice programs, experiments, and application projects. The repository brings together exercises in programming fundamentals, strings, files, records, and project development.
+A structured collection of Python coursework, practice exercises, experiments, and small applications. Topics progress from programming fundamentals and data structures to GUI development, web applications, and integrated projects.
 
-## Contents
+## Course sections
 
-- [Programming exercises](#programming-exercises)
-- [Strings and text processing](#strings-and-text-processing)
-- [File handling exercises](#file-handling-exercises)
-- [Student and employee exercises](#student-and-employee-exercises)
-- [Application and mini project folders](#application-and-mini-project-folders)
-- [Standalone Python experiments](#standalone-python-experiments)
-- [Repository configuration](#repository-configuration)
+| Section | Topic | Coverage |
+|---:|---|---|
+| 00 | [Unmatched and Supporting Files](00%20Unmatched%20and%20Supporting%20Files/README.md) | Data files and materials that do not map cleanly to a course topic. |
+| 01 | [Python Basics](01%20Python%20Basics/README.md) | Data types, input/output, operators, decisions, loops, and number problems. |
+| 02 | [Installation and Configuration of Python with IDEs](02%20Installation%20and%20Configuration%20of%20Python%20with%20IDEs/README.md) | Python setup, interpreter selection, and introductory environment exercises. |
+| 03 | [Lists, Tuples and Arrays](03%20Lists%2C%20Tuples%20and%20Arrays/README.md) | Collection operations, searching, sorting, and record management. |
+| 04 | [Strings, Sets and Dictionaries](04%20Strings%2C%20Sets%20and%20Dictionaries/README.md) | Text processing, validation, sets, and dictionary-based exercises. |
+| 05 | [Functions and Lambda Functions](05%20Functions%20and%20Lambda%20Functions/README.md) | Functions, recursion, lambdas, and modular programming. |
+| 06 | [File and Directory Handling](06%20File%20and%20Directory%20Handling/README.md) | Reading, writing, comparing, searching, and transforming files. |
+| 07 | [Classes, Objects, Constructors and Destructors](07%20Classes%2C%20Objects%2C%20Constructors%20and%20Destructors/README.md) | Object-oriented programming and class-based examples. |
+| 08 | [Inheritance and Polymorphism](08%20Inheritance%20and%20Polymorphism/README.md) | Inheritance structures and polymorphic behavior. |
+| 09 | [NumPy and Pandas Array Operations](09%20NumPy%20and%20Pandas%20Array%20Operations/README.md) | Array operations, statistics, indexing, and tabular data. |
+| 10 | [Matplotlib Graphs](10%20Matplotlib%20Graphs/README.md) | Plotting exercises and chart generation. |
+| 11 | [Tkinter GUI](11%20Tkinter%20GUI/README.md) | A student registration desktop application and GUI exercises. |
+| 12 | [Django Login and Regex Validation](12%20Django%20Login%20and%20Regex%20Validation/README.md) | Registration, authentication, validation, and a protected dashboard. |
+| 13 | [Python Mini Projects](13%20Python%20Mini%20Project/README.md) | Multi-module examples in banking, e-commerce, education, libraries, healthcare, and text tools. |
 
-## Programming Exercises
+## Featured applications
 
-Folders for core programming concepts and problem solving:
+- [Tkinter Student Registration](11%20Tkinter%20GUI/Tkinter_Application/README.md) — desktop form with validation and confirmation dialogs.
+- [Django Login and Validation](12%20Django%20Login%20and%20Regex%20Validation/Django_Login_Application/README.md) — account registration, login, logout, and a protected dashboard.
+- [SkyWise Weather Dashboard](13%20Python%20Mini%20Project/skywise-openmeteo/README.md) — Flask dashboard with weather forecasts and optional AI advice.
 
-- [Calculator](Calculator/)
-- [Character Types](Character%20Types/)
-- [Number Utils](Number%20Utils/)
-- [Recursive Utils](Recursive%20Utils/)
-- [String Utils](String%20Utils/)
-- [Vowels_Consonants](Vowels_Consonants/)
+## Getting started
 
-The repository also includes individual exercises for data types, arithmetic, factorials, Fibonacci numbers, prime checks, even and odd numbers, powers, patterns, and points in a 2D plane.
+Browse to a course section and read its README for the exercise scope and instructions. Run standalone scripts individually with Python 3. Applications may have their own dependencies and setup steps; follow the README in the specific project folder. There is no single dependency file for the entire repository.
 
-## Strings and Text Processing
+## Optional application screenshots
 
-Folders for working with characters, words, and text:
+Screenshots are optional for the exercises. To document the user interfaces, place captures in the relevant application folder and link them from that application's README:
 
-- [Longest Word](Longest%20Word/)
-- [Remove Comments](Remove%20Comments/)
-- [Search Word](Search%20Word/)
-- [Word Frequency](Word%20Frequency/)
+- Tkinter: `11 Tkinter GUI/Tkinter_Application/screenshots/`
+- Django: `12 Django Login and Regex Validation/Django_Login_Application/screenshots/`
+- SkyWise: `13 Python Mini Project/skywise-openmeteo/screenshots/`
 
-Other text exercises include anagram and palindrome checks, character counts and frequencies, duplicate-character removal, Caesar cipher, stopword removal, and replacing characters or words.
-
-## File Handling Exercises
-
-Folders for reading, comparing, searching, merging, and editing files:
-
-- [Comparing Files](Comparing%20Files/)
-- [Convert File Uppercase](Convert%20File%20Uppercase/)
-- [Count File](Count%20File/)
-- [File Characters](File%20Characters/)
-- [File Contents](File%20Contents/)
-- [File Words](File%20Words/)
-- [Find & Replace in File](Find%20%26%20Replace%20in%20File/)
-- [Merging Files](Merging%20Files/)
-- [Read File](Read%20File/)
-- [Replace Word](Replace%20Word/)
-- [Reverse Lines](Reverse%20Lines/)
-
-Related standalone experiments include counting word occurrences and extracting file extensions and dates.
-
-## Student and Employee Exercises
-
-Folders for student, employee, salary, and exception handling exercises:
-
-- [Employee Info](Employee%20Info/)
-- [Exception Handling-Student Info](Exception%20Handling-Student%20Info/)
-- [Salary](Salary/)
-- [Student](Student/)
-- [Student File](Student%20File/)
-- [Student Info](Student%20Info/)
-- [Student Project1](Student%20Project1/)
-
-Other individual programs cover employee records and attendance.
-
-## Application and Mini Project Folders
-
-The repository includes the following project folders:
-
-- [Banking Project1](Banking%20Project1/)
-- [banking_project](banking_project/)
-- [college_project](college_project/)
-- [college_project1](college_project1/)
-- [ecommerce](ecommerce/)
-- [ecommerce1](ecommerce1/)
-- [library](library/)
-- [library_app](library_app/)
-- [math_project](math_project/)
-- [mathutils1](mathutils1/)
-- [medical](medical/)
-- [medical_project](medical_project/)
-- [recursion_project](recursion_project/)
-- [student_project](student_project/)
-- [text_project](text_project/)
-- [texttools project1](texttools%20project1/)
-
-The [13 Python Mini Project](13%20Python%20Mini%20Project/) folder contains [SkyWise OpenMeteo](13%20Python%20Mini%20Project/skywise-openmeteo/README.md), a Flask weather dashboard project.
-
-## Standalone Python Experiments
-
-Individual Python files in the repository root provide practice in these areas:
-
-- **Numbers and logic:** factorials, Fibonacci, prime checks, digit sums, multiplication, even and odd numbers, and powers of two
-- **Strings and characters:** anagrams, palindromes, character counts and frequencies, duplicate characters, removing spaces, and replacing characters
-- **Collections and data:** sets, dictionaries, inventory management, and employee involvement
-- **Text processing:** longest words, word frequency, stopword removal, and extracting hashtags
-- **Files and data extraction:** file extension counts, date formatting, phone number extraction, and word searches
-- **Validation:** email and password checks
-- **Patterns and sequences:** character sequences, number sequences, and pattern printing
-
-Browse the [repository root](.) to see the standalone scripts.
-
-## Repository Configuration
-
-- [.github/agents](.github/agents/) contains GitHub agent configuration.
-- [.vscode](.vscode/) contains Visual Studio Code workspace settings.
